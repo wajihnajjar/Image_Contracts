@@ -24,4 +24,4 @@ app.get("/", (req, res) => {
     res.send("Welcome To Image Server");
   });
 
- // app.use("/api/contractType", contractTypeRoutes);
+ app.use("/api/contractType", contractTypeRoutes);
